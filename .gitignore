@@ -1,0 +1,7 @@
+/data/*.txt
+/results/*
+/out/
+*.class
+*.log
+ 
+ 
