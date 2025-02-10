@@ -9,7 +9,19 @@ import java.io.IOException;
 import main.java.sorting.utils.*;
 import java.util.Arrays;
 
+/**
+ * Clase principal que ejecuta y mide el tiempo de ejecución de diferentes
+ * algoritmos de ordenamiento con conjuntos de números aleatorios y previamente ordenados.
+ */
 public class Main {
+    
+    /**
+     * Método principal que coordina la generación, lectura, ordenamiento y medición de tiempos
+     * de ejecución de distintos algoritmos de ordenamiento.
+     *
+     * @param args Argumentos de línea de comandos (no utilizados en este programa).
+     * @throws IOException Si ocurre un error al leer o escribir el archivo de números.
+     */
     public static void main(String[] args) throws IOException {
         // Ruta del archivo con los números generados
         String filename = "data/numbers.txt";
